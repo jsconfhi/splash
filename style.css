@@ -1,0 +1,139 @@
+body {
+  background: #03282c;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.Hero {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  color: #f2dc1a;
+  background-image: url('img/header.jpg');
+  background-size: cover;
+  background-position: center; 
+  text-transform: uppercase;
+  min-height: 400px;
+}
+
+.Hero-cta {
+  background: rgba(3, 40, 44, 0.9);
+  padding: 2em 3em;
+  margin-top: 50px;
+}
+
+.Hero-logo {
+  margin-top: -150px;
+  width: 200px;
+  height: 200px;
+  background: url('img/logo.svg');
+  background-size: 200px 200px;
+}
+
+.Hero-details {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dotted #f2dc1a;
+  border-bottom: 1px dotted #f2dc1a;
+  padding: 1em 0;
+}
+
+.Hero-details a {
+  color: #f2dc1a;
+}
+
+.Info {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.Speak {
+  flex: 1;
+}
+
+.Sponsor {
+  flex: 1;
+  padding-left: 3em;
+}
+
+.Info-block {
+  padding: 0 4em;
+  margin: 2em 0;
+  border-right: 1px dotted #f2dc1a;
+}
+
+.Info-block h2 {
+  color: #f2dc1a;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.Info-block button {
+  color: #f2dc1a;
+  background: transparent;
+  border: 1px solid #f2dc1a;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.Footer {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0; 
+  padding: 0;
+  color: black;
+  background: #f2dc1a;
+  flex-shrink: 1;
+  min-height: 40px;
+  font-size: 0.9em;
+} 
+
+
+.Footer li:first-child {
+   margin-left: 3em;
+}
+
+.Footer li {
+  margin-right: 1em;
+}
+
+.Footer a {
+  color: #03282c;
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  text-decoration: underline;
+}
+
+/* Mail chimp */
+#mc_embed_signup .mc-field-group label {
+  text-transform: none;
+  font-size: 0.8em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#mc_embed_signup input {
+  float: left;
+  border: none; 
+  padding: 4px;
+}
+
+#mc_embed_signup input[name="subscribe"] {
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #f2dc1a;
+}
