@@ -7,6 +7,19 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+h1, p {
+  line-height: 1.4em;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+button {
+  cursor: pointer;
+}
+
 .Content {
   display: flex;
   flex-direction: column;
@@ -79,12 +92,15 @@ body {
   text-transform: uppercase;
 }
 
-.Info-block button {
+.Info-block button,
+.Info-block .button {
+  display: inline-block;
   color: #f2dc1a;
   background: transparent;
   border: 1px solid #f2dc1a;
   padding: 1em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .Footer {
@@ -121,21 +137,32 @@ body {
 /* Mail chimp */
 #mc_embed_signup .mc-field-group label {
   text-transform: none;
-  font-size: 0.8em;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.signup-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.mc-field-group {
+  flex-grow: 1;
+  max-width: 200px;
 }
 
 #mc_embed_signup input {
-  float: left;
   border: none;
-  padding: 4px;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 #mc_embed_signup input[name="subscribe"] {
   text-transform: uppercase;
   font-weight: bold;
   background: #f2dc1a;
+  width: auto;
 }
 
 #mc_embed_signup .clear {

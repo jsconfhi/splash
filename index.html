@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>JS Conf Hawaii</title>
+    <link rel="stylesheet" href="reset.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -15,12 +16,12 @@
           <span>Announcing</span>
           <h1>JS Conf: Hawaii</h2>
           <p class="Hero-details ">
-            <span>February 2019 | </span>
-            <span>Honolulu, HI | </span>
+            <span>February 2019</span>&nbsp;|&nbsp;
+            <span>Honolulu, HI</span>&nbsp;|&nbsp;
             <span>
-              <a href="https://www.instagram.com/jsconfhi/"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.twitter.com/jsconfhi/"><i class="fab fa-twitter-square"></i></a>
-              <a href="https://www.facebook.com/JsConf/"><i class="fab fa-facebook"></i></a>
+              <a aria-label="Instagram" href="https://www.instagram.com/jsconfhi/"><i class="fab fa-instagram"></i></a>
+              <a aria-label="Twitter" href="https://www.twitter.com/jsconfhi/"><i class="fab fa-twitter-square"></i></a>
+              <a aria-label="Facebook" href="https://www.facebook.com/JsConf/"><i class="fab fa-facebook"></i></a>
             </span>
           </p>
           <div class="Hero-newsletter"
@@ -28,16 +29,18 @@
             <div id="mc_embed_signup">
               <form action="https://twitter.us18.list-manage.com/subscribe/post?u=c9c542019e2372811b2b8cd10&amp;id=affde4125d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
-                <div class="mc-field-group">
-                  <label for="mce-EMAIL">Sign up for email updates </label>
-                  <input type="email" placeholder="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c9c542019e2372811b2b8cd10_affde4125d" tabindex="-1" value=""></div>
-                  <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div class="signup-form">
+                    <div class="mc-field-group">
+                      <label for="mce-EMAIL">Sign up for updates</label>
+                      <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                  </div>
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c9c542019e2372811b2b8cd10_affde4125d" tabindex="-1" value=""></div>
+                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 </div>
               </form>
             </div>
@@ -49,25 +52,23 @@
       <div class="Info">
         <div class="Speak Info-block">
           <h2>Call for Speakers</h2>
-          <p>We will be opening our Call for Speakers in June, 2018!</p>
-          <p>Read more about our CFP process that is designed to shine the spotlight 
-            on the latest ideas and future leaders of the JavaScript world.
+          <p>We will be opening our Call for Speakers in June!</p>
+          <p>Our CFP process will solicit a variety of talks from JavaScript, to personal development, and everything in-between.
           </p>
-          <button>Learn More</button>
+          <!-- <button>Learn More</button> -->
+          <p>Coming soon! Sign up for updates to find out when we open our CFP</p>
         </div>
         <div class="Sponsor Info-block">
           <h2>Sponsorships</h2>
-          <p>We are currently offering sponsorship packages for the inauguaral JSConf Hawaii coming February 2019. 
-            We're looking forward to working with all of our great sponsors to find the best way to connect each of 
-            you with our attendees in unique and meaningful ways.</p>
-          <p>Contact us to learn more about our packages!</p>
-          <button>Contact us</button>
+          <p>We still putting the finishing touches on our sponsorship options for the inauguaral JSConf Hawaii. More information will be available soon.</p>
+          <p>In the meantime please reach out if you're interested in being a founding partner!</p>
+          <a class="button" href="mailto:sponsors@jsconfhi.com">Contact us</a>
         </div>
       </div>
-      <ul class="Footer">
+      <!-- <ul class="Footer">
         <li><a href="#">Code of conduct</a></li>
         <li><a href="#">Organizers</a></li>
-      </footer>
+      </footer> -->
     </section>
   </body>
 </html>
