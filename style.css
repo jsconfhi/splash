@@ -212,7 +212,7 @@ button {
   .Info { flex-direction: column; }
   .Info-block + .Info-block {
     border-left: none;
-    border-top: 1px dotted #f2dc1a;
+    border-top: 1px dashed #f2dc1a;
   }
 }
 }
