@@ -17,8 +17,13 @@ h1 {
   font-size: 2.5em;
 }
 
+input[type=submit],
 button {
   cursor: pointer;
+}
+
+input {
+  font-size: 12px;
 }
 
 .Content {
@@ -167,7 +172,7 @@ button {
 }
 
 /* Mail chimp */
-#mc_embed_signup .mc-field-group label {
+#mc_embed_signup label {
   text-transform: none;
   display: block;
   margin: 12px 0;
@@ -175,7 +180,7 @@ button {
 
 .signup-form {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .mc-field-group {
@@ -184,6 +189,7 @@ button {
 
 #mc_embed_signup input {
   border: none;
+  height: 3em;
   padding: 1em;
   box-sizing: border-box;
   width: 100%;
