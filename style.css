@@ -207,7 +207,7 @@ button {
 
 
 /* Mobile layout */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 660px) {
   .Hero { flex-direction: column; }
   .Hero-logo {
     margin-top: 25px;
@@ -216,7 +216,10 @@ button {
     background: url('img/logo.svg');
     background-size: 100px 100px;
   }
-  .Hero-cta { margin: 50px 0; }
+  .Hero-cta {
+    margin: 50px 0;
+    padding: 2em;
+  }
   .Info {
     flex-direction: column;
     padding: 0 2em;
