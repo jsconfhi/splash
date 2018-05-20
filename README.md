@@ -1,9 +1,11 @@
-# splash
+## JS Conf Hawaiʻi Splash Page
+
 Splash page for 2019 conference
 
-Mockup:
+## Mockup:
 
 ![Screenshot](https://github.com/jsconfhi/splash/blob/master/img/splash-mockup.jpg)
 
-Temporary staging:
-https://splash-frdqjdmajl.now.sh/
+## View the site:
+
+[jsconfhi.com](https://www.jsconfhi.com/)
