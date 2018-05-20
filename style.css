@@ -4,16 +4,17 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
 }
 
 h1, p {
-  line-height: 1.4em;
+  line-height: 1.2em;
   margin: 1rem 0;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 button {
@@ -41,6 +42,15 @@ button {
   min-height: 400px;
 }
 
+.Hero-title {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.Hero-titleIntro {
+  font-size: 1.6em;
+}
+
 .Hero-cta {
   background: rgba(3, 40, 44, 0.9);
   padding: 2em 3em;
@@ -49,35 +59,40 @@ button {
 
 .Hero-logo {
   margin-top: -150px;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   background: url('img/logo.svg');
-  background-size: 200px 200px;
+  background-size: 220px 220px;
 }
 
 .Hero-details {
   display: flex;
   justify-content: space-between;
-  border-top: 1px dotted #f2dc1a;
-  border-bottom: 1px dotted #f2dc1a;
-  padding: 1em 0;
+  border-top: 1px dashed #f2dc1a;
+  border-bottom: 1px dashed #f2dc1a;
+  padding: 1.5em 0;
+}
+
+.Hero-details span {
+  margin: 0 0.5em;
 }
 
 .Hero-details a {
   color: #f2dc1a;
 }
 
+.Info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .Info {
   display: flex;
   flex-shrink: 1;
-}
-
-.Speak {
-  flex: 1;
+  max-width: 960px;
 }
 
 .Sponsor {
-  flex: 1;
   padding-left: 3em;
 }
 
@@ -86,12 +101,13 @@ button {
 }
 
 .Info-block + .Info-block {
-  border-left: 1px dotted #f2dc1a;
+  border-left: 1px dashed #f2dc1a;
 }
 
 .Info-block h2 {
   color: #f2dc1a;
   font-size: 1.5em;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -118,6 +134,7 @@ button {
   flex-shrink: 1;
   min-height: 40px;
   font-size: 0.9em;
+  font-weight: bold;
   width: 100%;
 }
 
@@ -143,11 +160,15 @@ button {
   font-size: 2em;
 }
 
+.Footer-icons .Icon {
+  margin-left: 8px;
+}
+
 /* Mail chimp */
 #mc_embed_signup .mc-field-group label {
   text-transform: none;
   display: block;
-  margin-bottom: 5px;
+  margin: 12px 0;
 }
 
 .signup-form {
@@ -157,12 +178,11 @@ button {
 
 .mc-field-group {
   flex-grow: 1;
-  max-width: 200px;
 }
 
 #mc_embed_signup input {
   border: none;
-  padding: 5px;
+  padding: 1em;
   box-sizing: border-box;
   width: 100%;
 }
@@ -171,6 +191,7 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   background: #f2dc1a;
+  color: #03282b;
   width: auto;
 }
 
@@ -179,7 +200,7 @@ button {
 }
 
 #mce-responses {
-  padding: 10px 0;
+  padding: 10px 0 0;
 }
 
 
