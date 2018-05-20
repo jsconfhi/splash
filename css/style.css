@@ -130,7 +130,7 @@ button {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  padding: 0 4em;
+  padding: 0 2rem; /* aligned with content */
   color: black;
   background: #f2dc1a;
   flex-shrink: 1;
@@ -213,7 +213,7 @@ button {
     margin-top: 25px;
     width: 100px;
     height: 100px;
-    background: url('img/logo.svg');
+    background: url('../img/logo.svg');
     background-size: 100px 100px;
   }
   .Hero-cta {

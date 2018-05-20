@@ -6,7 +6,7 @@
 }
 
 .Organizers-container {
-  margin: 10px 30px;
+  margin: 10px 2em;
   flex-shrink: 0;
   max-width: 960px;
 }
@@ -14,8 +14,14 @@
 .Organizers {
 	display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+}
+
+.Organizers-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
 }
 
 .Organizers-logo {
@@ -23,7 +29,13 @@
   height: 60px;
   background: url('../img/logo.svg');
   background-size: 60px 60px;
-  margin-bottom: 30px;
+}
+
+.Organizers-title {
+  margin: 0;
+  margin-left: 2rem;
+  color: #f2dc1a;
+  text-transform: uppercase;
 }
 
 .Organizer {
@@ -61,4 +73,14 @@
 
 .Organizer-description p {
   line-height: 1.5em;
+}
+
+/* Mobile layout */
+@media only screen and (max-width: 660px) {
+  .Organizers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
 }
