@@ -1,0 +1,64 @@
+.Content {
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.Organizers-container {
+  margin: 10px 30px;
+  flex-shrink: 0;
+  max-width: 960px;
+}
+
+.Organizers {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.Organizers-logo {
+  width: 60px;
+  height: 60px;
+  background: url('../img/logo.svg');
+  background-size: 60px 60px;
+  margin-bottom: 30px;
+}
+
+.Organizer {
+  background: #03282b;
+}
+
+.Organizer a {
+  color: #f2dc1a;
+  text-decoration: none;
+}
+
+.Organizer a:hover {
+  text-decoration: underline;
+}
+
+.Organizer-heading {
+  background: #a4a4a6;
+  color: #021517;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 1em 0.5em;
+  display: block;
+}
+
+.Organizer-avatar {
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+}
+
+.Organizer-description {
+  clear: both;
+  padding: 0.25em 2em 2em;
+}
+
+.Organizer-description p {
+  line-height: 1.5em;
+}

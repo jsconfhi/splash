@@ -36,7 +36,7 @@ button {
   justify-content: center;
   color: #f2dc1a;
   background: linear-gradient(#405766, #5798A6); /* ??? */
-  background-image: url('img/header.jpg');
+  background-image: url('../img/header.jpg');
   background-size: cover;
   background-position: center;
   text-transform: uppercase;
@@ -62,7 +62,7 @@ button {
   margin-top: -150px;
   width: 220px;
   height: 220px;
-  background: url('img/logo.svg');
+  background: url('../img/logo.svg');
   background-size: 220px 220px;
 }
 
