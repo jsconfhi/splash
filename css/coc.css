@@ -1,13 +1,16 @@
 .Content {
   background: url('../img/header.jpg') 0 0 no-repeat;
+  background-size: cover;
   align-items: center;
 }
 
 .CodeOfConduct-container {
   padding: 1em 2em;
   background: #03282b;
+  background: rgba(3, 40, 43, 0.8);
   margin: 10px 2em;
   width: 960px;
+  max-width: 100vw;
 }
 
 .CodeOfConduct-container p,
@@ -37,7 +40,7 @@
 }
 
 .CodeOfConduct {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
