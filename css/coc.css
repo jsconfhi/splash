@@ -1,0 +1,59 @@
+.Content {
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.CodeOfConduct-container {
+  padding: 1em 2em;
+  background: #03282b;
+  margin: 10px 2em;
+  width: 960px;
+}
+
+.CodeOfConduct-container p,
+.CodeOfConduct-container ul {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.CodeOfConduct {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.CodeOfConduct a {
+  color: #f2dc1a;
+  text-decoration: none;
+}
+
+.CodeOfConduct a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #f2dc1a;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 0.5em 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 0.25em 0;
+  border-bottom: 1px solid #f2dc1a;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style: initial;
+  margin-left: 1em;
+}
